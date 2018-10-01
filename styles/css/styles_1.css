@@ -92,9 +92,10 @@ ul.nav {
   overflow: hidden;
   z-index: -1;
   position: fixed;
-  background-position-y: center;
   background-size: cover;
-  top: inherit; }
+  height: -webkit-fill-available;
+  background-repeat: no-repeat;
+  background-position: center; }
 
 .home_img_overlay {
   position: absolute;
@@ -105,12 +106,15 @@ ul.nav {
   display: flex;
   flex-direction: column; }
 
-section.listing_description {
+.x {
+  height: -webkit-fill-available; }
+
+.listing_description {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-end; }
-  section.listing_description h1 {
+  .listing_description h1 {
     font-family: 'Roboto Slab', serif;
     color: #D3D3D3;
     font-size: 5em;

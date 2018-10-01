@@ -158,12 +158,13 @@ ul.nav {
   height: 50vh;
    background-image: url("/BPD/images/hines_road/front_full_angle_cropped2.jpg");
   width: 100%;
-  overflow: hidden;
-  z-index: -1;
-  position: fixed;
-background-position-y: center;
-background-size: cover;
-top: inherit;
+   overflow: hidden;
+   z-index: -1;
+   position: fixed;
+   background-size: cover;
+   height: -webkit-fill-available;
+   background-repeat: no-repeat;
+   background-position: center;
 }
 
 .home_img_overlay {
@@ -176,7 +177,11 @@ top: inherit;
   flex-direction: column;
 }
 
-section.listing_description {
+.x {
+      height: -webkit-fill-available;
+}
+
+.listing_description {
     display: flex;
     flex-direction: column;
     justify-content: center;

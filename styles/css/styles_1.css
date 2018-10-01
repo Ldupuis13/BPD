@@ -129,6 +129,15 @@ img {
 img.home_focal {
   width: 100%; }
 
+h1.listing_description {
+  font-family: 'Roboto Slab', serif;
+  color: #D3D3D3;
+  font-size: 5em;
+  letter-spacing: .2em;
+  margin: 4% 2% 4%;
+  text-align: right;
+  width: 33%; }
+
 h1.listings {
   font-family: 'Roboto', sans-serif;
   color: #092043;

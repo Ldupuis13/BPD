@@ -228,19 +228,19 @@ h1.listings {
 }
 
 p {
-  @include font-sans-serif();
+  @include font-sans-serif(.7em);
   letter-spacing: .05em;
   font-weight: 300;
-  line-height: .7em;
+  line-height: 1.7em;
   text-align: left;
 }
 
 li {
-  @include font-sans-serif();
+  @include font-sans-serif(.7em);
   padding: 2%;
   letter-spacing: .05em;
   font-weight: 300;
-  line-height: .7em;
+  line-height: 1.7em;
   list-style-type: disc;
 }
 

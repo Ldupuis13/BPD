@@ -155,20 +155,20 @@ h1.listings {
 p {
   font-family: 'Roboto', sans-serif;
   color: #7c7979;
-  font-size: 1.4em;
+  font-size: 0.7em;
   letter-spacing: .05em;
   font-weight: 300;
-  line-height: .7em;
+  line-height: 1.7em;
   text-align: left; }
 
 li {
   font-family: 'Roboto', sans-serif;
   color: #7c7979;
-  font-size: 1.4em;
+  font-size: 0.7em;
   padding: 2%;
   letter-spacing: .05em;
   font-weight: 300;
-  line-height: .7em;
+  line-height: 1.7em;
   list-style-type: disc; }
 
 .listings {

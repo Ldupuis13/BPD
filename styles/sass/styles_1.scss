@@ -77,13 +77,16 @@ p {
 }
 
 
-.listings_3 {
+.listings {
   width: 90%;
   padding: 5%;
   display:flex;
   flex-direction: row;
   justify-content: unset;
   background: rgba (250, 250, 250, .77);
+  .details {
+
+  }
 }
 
 .property_imgs {
@@ -91,6 +94,8 @@ p {
     display: flex;
     margin: 0 auto;
     flex-wrap: wrap;
+    background: rgba (250, 250, 250, .77);
+    flex-basis: 50%;
 }
 
 figure {
@@ -112,7 +117,6 @@ body {
 
 .full {
   width: 100%;
-  background: rgba(250, 250, 250, 0.75);
       /* The image used */
       /* Full height */
       height: 100%;
@@ -215,7 +219,7 @@ h1.listing_description {
 
 }
 h1.listings {
-  @include font-sans-serif(3.2em,#092043);
+  @include font-sans-serif(2.2em,#092043);
   letter-spacing: .1em;
   margin: 3% 1% 4%;
   text-align: left;
@@ -228,8 +232,6 @@ p {
   letter-spacing: .05em;
   font-weight: 300;
   line-height: 1.4em;
-  width: 53%;
-  margin-right: 7%;
   text-align: justify;
 }
 
@@ -242,22 +244,20 @@ li {
   list-style-type: disc;
 }
 
-.listings_3 {
+.listings {
   width: 90%;
   margin: 5% auto;
   display: flex;
   flex-direction: row;
   justify-content: unset;
-  .listing_description {
-    width: 90%;
-
-  }
+  background: rgba(250, 250, 250, 0.75);
 }
 
 .property_imgs {
     width: 90%;
     display: flex;
     margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 figure {
@@ -267,12 +267,12 @@ figure {
 
 .description {
   width: 50%;
-  margin: 20px;
+  margin-right: 7%;
 }
 
 
 section.Interior, section.amenities {
-  width: 30%;
+  width: 17%;
   margin: 0 2%;
 }
 

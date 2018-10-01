@@ -18,7 +18,7 @@ p {
   font-weight: 300;
   line-height: 1.4em; }
 
-.listings_3 {
+.listings {
   width: 90%;
   padding: 5%;
   display: flex;
@@ -30,7 +30,9 @@ p {
   width: 80%;
   display: flex;
   margin: 0 auto;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  background: rgba 250, 250, 250, 0.77;
+  flex-basis: 50%; }
 
 figure {
   width: 50%; }
@@ -49,7 +51,6 @@ body {
 
 .full {
   width: 100%;
-  background: rgba(250, 250, 250, 0.75);
   /* The image used */
   /* Full height */
   height: 100%;
@@ -144,7 +145,7 @@ h1.listing_description {
 h1.listings {
   font-family: 'Roboto', sans-serif;
   color: #092043;
-  font-size: 3.2em;
+  font-size: 2.2em;
   letter-spacing: .1em;
   margin: 3% 1% 4%;
   text-align: left;
@@ -158,8 +159,6 @@ p {
   letter-spacing: .05em;
   font-weight: 300;
   line-height: 1.4em;
-  width: 53%;
-  margin-right: 7%;
   text-align: justify; }
 
 li {
@@ -172,29 +171,29 @@ li {
   line-height: 1.6em;
   list-style-type: disc; }
 
-.listings_3 {
+.listings {
   width: 90%;
   margin: 5% auto;
   display: flex;
   flex-direction: row;
-  justify-content: unset; }
-  .listings_3 .listing_description {
-    width: 90%; }
+  justify-content: unset;
+  background: rgba(250, 250, 250, 0.75); }
 
 .property_imgs {
   width: 90%;
   display: flex;
-  margin: 0 auto; }
+  margin: 0 auto;
+  flex-wrap: wrap; }
 
 figure {
   width: 25%; }
 
 .description {
   width: 50%;
-  margin: 20px; }
+  margin-right: 7%; }
 
 section.Interior, section.amenities {
-  width: 30%;
+  width: 17%;
   margin: 0 2%; }
 
 @media only screen and (max-width: 1110px) {

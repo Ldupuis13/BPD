@@ -145,7 +145,7 @@ h1.listing_description {
 h1.listings {
   font-family: 'Roboto', sans-serif;
   color: #092043;
-  font-size: 2.2em;
+  font-size: 1em;
   letter-spacing: .1em;
   margin: 3% 1% 4%;
   text-align: left;
@@ -158,8 +158,8 @@ p {
   font-size: 1.4em;
   letter-spacing: .05em;
   font-weight: 300;
-  line-height: 1.4em;
-  text-align: justify; }
+  line-height: .7em;
+  text-align: left; }
 
 li {
   font-family: 'Roboto', sans-serif;
@@ -168,7 +168,7 @@ li {
   padding: 2%;
   letter-spacing: .05em;
   font-weight: 300;
-  line-height: 1.6em;
+  line-height: .7em;
   list-style-type: disc; }
 
 .listings {

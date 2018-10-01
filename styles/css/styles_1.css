@@ -107,7 +107,10 @@ ul.nav {
   flex-direction: column; }
 
 .x {
-  height: -webkit-fill-available; }
+  height: -webkit-fill-available;
+  display: flex;
+  justify-content: flex-end;
+  align-content: center; }
 
 .listing_description {
   display: flex;

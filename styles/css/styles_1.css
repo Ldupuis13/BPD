@@ -63,20 +63,20 @@ body {
 header {
   background: #fafafa;
   display: flex;
-  flex-direction: row;
-  padding: 2%;
-  justify-content: space-between;
-  width: 100%; }
+  flex-direction: row; }
 
 .logo_home {
-  width: 20%;
-  /* margin-right: 10%; */ }
+  width: 10%;
+  margin-right: 10%; }
+
+.logo {
+  width: 100%;
+  margin: 5%; }
 
 ul.nav {
   display: flex;
   justify-content: space-between;
-  width: 70%;
-  align-items: center; }
+  width: 70%; }
   ul.nav li {
     font-family: 'Roboto', sans-serif;
     color: #7c7979;
@@ -86,30 +86,17 @@ ul.nav {
     list-style-type: none;
     font-weight: 400; }
 
-figure {
-  background-image: url("/Users/Lou/Documents/GitHub/BPD/images/hines_road/front_full_angle_cropped_illust.png");
+.home_focal_background {
+  height: 50vh;
+  background-image: url("/BPD/images/hines_road/front_full_angle_cropped_illust.png");
   width: 100%;
   overflow: hidden;
   z-index: -1;
-  position: absolute;
+  position: fixed;
   background-size: cover;
   height: -webkit-fill-available;
   background-repeat: no-repeat;
-  background-position: right;
-  top: 10px;
-  transition: all 1s ease-in-out; }
-
-@-webkit-keyframes switch {
-  0% {
-    background-image: url("/Users/Lou/Documents/GitHub/BPD/images/hines_road/front_full_angle_cropped2.jpg"); }
-  100% {
-    background-image: url("/Users/Lou/Documents/GitHub/BPD/images/hines_road/front_full_angle_cropped2.jpg"); } }
-figure.background:hover {
-  overflow: hidden;
-  -webkit-animation: switch 5s infinite;
-  /* Chrome, Safari, Opera */
-  animation: switch 5s infinite;
-  background-repeat: no-repeat; }
+  background-position: center; }
 
 .home_img_overlay {
   position: absolute;
@@ -124,8 +111,7 @@ figure.background:hover {
   height: -webkit-fill-available;
   display: flex;
   justify-content: flex-end;
-  align-content: center;
-  width: 100%; }
+  align-content: center; }
 
 .listing_description {
   display: flex;
@@ -143,9 +129,8 @@ figure.background:hover {
 
 img {
   display: inline-block; }
-
-img.home_focal {
-  width: 100%; }
+  img.home_focal {
+    width: 100%; }
 
 h1.listing_description {
   font-family: 'Roboto Slab', serif;
@@ -155,7 +140,6 @@ h1.listing_description {
   margin: 4% 2% 4%;
   text-align: right;
   width: 33%; }
-
 h1.listings {
   font-family: 'Roboto', sans-serif;
   color: #092043;
@@ -217,5 +201,6 @@ body, html {
   height: 100%; }
 
 /*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=styles_1.css.map */
 
 /*# sourceMappingURL=styles_1.css.map */

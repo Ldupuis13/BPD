@@ -83,46 +83,29 @@ ul.nav {
     list-style-type: none;
     font-weight: 400; }
 
-section.background {
-  background-image: url("/Users/Lou/Documents/GitHub/BPD/images/hines_road/front_full_angle_cropped_illust.png");
+figure.background {
+  background-image: url("/BPD/images/hines_road/front_full_angle_cropped_illust.png");
   width: 100%;
   overflow: hidden;
   z-index: -1;
-  position: fixed;
+  position: absolute;
   background-size: cover;
   height: -webkit-fill-available;
-  background-repeat: no-repeat;
-  background-position: center;
-  transition: all 5s ease-in-out;
-  height: 100%;
-  }
+  background-repeat: repeat-n;
+  background-position: right;
+  transition: all 1s ease-in-out; }
 
 @-webkit-keyframes switch {
   0% {
-    background-image: url("/Users/Lou/Documents/GitHub/BPD/images/hines_road/front_full_angle_cropped2.jpg"); }
- 25% {
-    background-image: url("/Users/Lou/Documents/GitHub/BPD/images/hines_road/front_full_angle_cropped2.jpg"); }
-
-      50% {
-    background-image: url("/Users/Lou/Documents/GitHub/BPD/images/hines_road/front_full_angle_cropped2.jpg"); }
-    100% {
-      background-image: url("/Users/Lou/Documents/GitHub/BPD/images/hines_road/front_full_angle_cropped2.jpg"); } }
-section figure:hover {
+    background-image: url("/BPD/images/hines_road/front_full_angle_cropped2.jpg"); }
+  100% {
+    background-image: url("/BPD/images/hines_road/front_full_angle_cropped2.jpg"); } }
+figure.background:hover {
   overflow: hidden;
   -webkit-animation: switch 5s infinite;
   /* Chrome, Safari, Opera */
   animation: switch 5s infinite;
-  background-repeat: no-repeat;
-  background-image: url("/Users/Lou/Documents/GitHub/BPD/images/hines_road/front_full_angle_cropped2.jpg");
-  width: 100%;
-  overflow: hidden;
-  z-index: -1;
-  position: fixed;
-  /* background-size: cover; */
-  height: -webkit-fill-available;
-  background-repeat: no-repeat;
-  /* background-position: right; */
-  }
+  background-repeat: repeat-n; }
 
 .home_img_overlay {
   position: absolute;
@@ -166,12 +149,18 @@ h1.listing_description {
   font-size: 5em;
   letter-spacing: .2em;
   text-align: right;
-  width: 33%;
-  height: 100%;
-  }
+  width: 100%; }
 
 h1.listing_description:hover {
- }
+  background-image: url("/BPD/images/hines_road/front_full_angle_cropped2.jpg");
+  width: 100%;
+  overflow: hidden;
+  z-index: -1;
+  position: fixed;
+  background-size: cover;
+  height: -webkit-fill-available;
+  background-repeat: no-repeat;
+  background-position: right; }
 
 h1.listings {
   font-family: 'Roboto', sans-serif;
@@ -217,10 +206,7 @@ div.property_imgs {
   flex-wrap: wrap; }
 
 figure {
-  width: 100%;
-  z-index: -1;
-  height: 100%;
-  }
+  width: 50%; }
 
 .description {
   width: 50%;

@@ -1,0 +1,4 @@
+sass --watch /Users/Lou/Documents/GitHub/BPD/styles/sass/styles_1.scss:/Users/Lou/Documents/GitHub/BPD/styles/css/styles_1.css
+
+
+sass --watch /Users/Lou/Documents/GitHub/BPD/styles/sass/styles_3.scss:/Users/Lou/Documents/GitHub/BPD/styles/css/styles_3.css

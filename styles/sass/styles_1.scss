@@ -102,7 +102,6 @@ ul.nav {
 }
 
 .home_focal_background {
-  height: 50vh;
   background-image: url("/BPD/images/hines_road/front_full_angle_cropped_illust.png");
   width: 100%;
   overflow: hidden;
@@ -112,6 +111,10 @@ ul.nav {
   height: -webkit-fill-available;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.home_focal_background:hover {
+    background-image: url("/BPD/images/hines_road/front_full_angle_cropped2.jpg");
 }
 
 .home_img_overlay {

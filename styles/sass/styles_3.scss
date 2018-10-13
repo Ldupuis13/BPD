@@ -154,7 +154,7 @@ ul.nav {
 }
 
 figure.background {
-  background-image: url("/Users/Lou/Documents/GitHub/BPD/images/hines_road/front_full_angle_cropped_illust.png");
+  background-image: url("/BPD/images/hines_road/front_full_angle_cropped_illust.png");
   width: 100%;
   overflow: hidden;
   z-index: -1;
@@ -167,8 +167,8 @@ figure.background {
 }
 
 @-webkit-keyframes switch {
-    0% {background-image: url('/Users/Lou/Documents/GitHub/BPD/images/hines_road/front_full_angle_cropped2.jpg');}
-    100% {background-image: url('/Users/Lou/Documents/GitHub/BPD/images/hines_road/front_full_angle_cropped2.jpg');}
+    0% {background-image: url('/BPD/images/hines_road/front_full_angle_cropped2.jpg');}
+    100% {background-image: url('/BPD/images/hines_road/front_full_angle_cropped2.jpg');}
 }
 
 figure.background:hover{
@@ -227,7 +227,7 @@ figure.background:hover{
   }
 
   h1.listing_description:hover {
-    background-image: url("/Users/Lou/Documents/GitHub/BPD/images/hines_road/front_full_angle_cropped2.jpg");
+    background-image: url("/BPD/images/hines_road/front_full_angle_cropped2.jpg");
     width: 100%;
   overflow: hidden;
   z-index: -1;

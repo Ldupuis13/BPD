@@ -6,7 +6,7 @@ img {
 }
 
 .listings {
-  font-family: 'BauerBodoniPro-Bold', serif;
+  font-family: 'didot', serif;
   color: #092043;
   font-size: 2.5em;
   letter-spacing: .07em;
@@ -24,7 +24,7 @@ p {
 
 .listings {
   width: 90%;
-  padding: 5%;
+  /* padding: 5%; */
   display: flex;
   flex-direction: row;
   justify-content: unset;
@@ -74,10 +74,11 @@ header {
   background: #fafafa;
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .logo_home {
-  width: 30%;
+  width: 20%;
   margin-right: 10%;
 }
 
@@ -102,7 +103,7 @@ ul.nav {
 }
 
 .home_focal_background {
-  background-image: url("/BPD/images/hines_road/front_full_angle_cropped_illust.png");
+  background-image: url("//BPD/images/hines_road/front_full_angle_cropped2.jpg");
   width: 100%;
   overflow: hidden;
   z-index: -1;
@@ -112,9 +113,6 @@ ul.nav {
   background-repeat: no-repeat;
   background-position: center;
   height: 60%;
-  &:hover {
-    background-image: url("/BPD/images/hines_road/front_full_angle_cropped2.jpg");
-  }
 }
 
 .home_img_overlay {
@@ -140,13 +138,13 @@ ul.nav {
   justify-content: center;
   align-items: flex-end;
   h1 {
-    font-family: 'BauerBodoniPro-Bold', serif;
+    font-family: 'didot', serif;
     color: #D3D3D3;
     font-size: 5em;
-    letter-spacing: .2em;
+    letter-spacing: .1em;
     margin: 4% 2% 4%;
     text-align: right;
-    width: 33%;
+    width: 25%;
   }
 }
 
@@ -159,20 +157,20 @@ img {
 
 h1 {
   &.listing_description {
-    font-family: 'BauerBodoniPro-Bold', serif;
+    font-family: 'didot', serif;
     color: #D3D3D3;
     font-size: 5em;
     letter-spacing: .2em;
     margin: 5%;
     text-align: right;
-    width: 33%;
+    width: 30%;
     height: fit-content;
   }
   &.listings {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'didot', sans-serif;
     color: #092043;
     font-size: 1em;
-    letter-spacing: .1em;
+    letter-spacing: .08em;
     margin: 3% 1% 4%;
     text-align: left;
     width: 89%;
@@ -189,6 +187,7 @@ p {
   font-weight: 300;
   line-height: 1.7em;
   text-align: left;
+  padding-bottom: 20px;
 }
 
 li {
@@ -199,7 +198,7 @@ li {
   letter-spacing: .05em;
   font-weight: 300;
   line-height: 1.7em;
-  list-style-type: disc;
+  list-style-type: none;
 }
 
 .listings {
@@ -362,6 +361,8 @@ body {
 }
 
 /*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=styles_1.css.map */
+/*# sourceMappingURL=styles_1.css.map */
 /*# sourceMappingURL=styles_1.css.map */
 /*# sourceMappingURL=styles_1.css.map */
 

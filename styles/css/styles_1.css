@@ -4,7 +4,7 @@ img {
   width: 100%; }
 
 .listings {
-  font-family: 'BauerBodoniPro-Bold', serif;
+  font-family: 'didot', serif;
   color: #092043;
   font-size: 2.5em;
   letter-spacing: .07em;
@@ -20,7 +20,7 @@ p {
 
 .listings {
   width: 90%;
-  padding: 5%;
+  /* padding: 5%; */
   display: flex;
   flex-direction: row;
   justify-content: unset;
@@ -63,10 +63,11 @@ body {
 header {
   background: #fafafa;
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  align-items: center; }
 
 .logo_home {
-  width: 30%;
+  width: 20%;
   margin-right: 10%; }
 
 .logo {
@@ -87,7 +88,7 @@ ul.nav {
     font-weight: 400; }
 
 .home_focal_background {
-  background-image: url("/BPD/images/hines_road/front_full_angle_cropped_illust.png");
+  background-image: url("//BPD/images/hines_road/front_full_angle_cropped2.jpg");
   width: 100%;
   overflow: hidden;
   z-index: -1;
@@ -97,8 +98,6 @@ ul.nav {
   background-repeat: no-repeat;
   background-position: center;
   height: 60%; }
-  .home_focal_background:hover {
-    background-image: url("/BPD/images/hines_road/front_full_angle_cropped2.jpg"); }
 
 .home_img_overlay {
   position: absolute;
@@ -121,13 +120,13 @@ ul.nav {
   justify-content: center;
   align-items: flex-end; }
   .listing_description h1 {
-    font-family: 'BauerBodoniPro-Bold', serif;
+    font-family: 'didot', serif;
     color: #D3D3D3;
     font-size: 5em;
-    letter-spacing: .2em;
+    letter-spacing: .1em;
     margin: 4% 2% 4%;
     text-align: right;
-    width: 33%; }
+    width: 25%; }
 
 img {
   display: inline-block; }
@@ -135,19 +134,19 @@ img {
     width: 100%; }
 
 h1.listing_description {
-  font-family: 'BauerBodoniPro-Bold', serif;
+  font-family: 'didot', serif;
   color: #D3D3D3;
   font-size: 5em;
   letter-spacing: .2em;
   margin: 5%;
   text-align: right;
-  width: 33%;
+  width: 30%;
   height: fit-content; }
 h1.listings {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'didot', sans-serif;
   color: #092043;
   font-size: 1em;
-  letter-spacing: .1em;
+  letter-spacing: .08em;
   margin: 3% 1% 4%;
   text-align: left;
   width: 89%;
@@ -161,7 +160,8 @@ p {
   letter-spacing: .05em;
   font-weight: 300;
   line-height: 1.7em;
-  text-align: left; }
+  text-align: left;
+  padding-bottom: 20px; }
 
 li {
   font-family: 'Roboto', sans-serif;
@@ -171,7 +171,7 @@ li {
   letter-spacing: .05em;
   font-weight: 300;
   line-height: 1.7em;
-  list-style-type: disc; }
+  list-style-type: none; }
 
 .listings {
   width: 90%;
@@ -285,6 +285,8 @@ body {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); }
 
 /*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=styles_1.css.map */
+/*# sourceMappingURL=styles_1.css.map */
 /*# sourceMappingURL=styles_1.css.map */
 /*# sourceMappingURL=styles_1.css.map */
 /*# sourceMappingURL=styles_1.css.map */

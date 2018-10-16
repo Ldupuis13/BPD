@@ -215,6 +215,18 @@ body, html {
     position: absolute;
     z-index: -1;
     top: 0; }
+    [data-am-gallery] input[type="radio"]:checked:nth-child(7) ~ .images .image:nth-child(7) {
+      opacity: 1; }
+    [data-am-gallery] input[type="radio"]:checked:nth-child(7) ~ .navigation .dot:nth-child(7) {
+      background-color: #29acbb; }
+      [data-am-gallery] input[type="radio"]:checked:nth-child(7) ~ .navigation .dot:nth-child(7):hover {
+        opacity: 1; }
+    [data-am-gallery] input[type="radio"]:checked:nth-child(6) ~ .images .image:nth-child(6) {
+      opacity: 1; }
+    [data-am-gallery] input[type="radio"]:checked:nth-child(6) ~ .navigation .dot:nth-child(6) {
+      background-color: #29acbb; }
+      [data-am-gallery] input[type="radio"]:checked:nth-child(6) ~ .navigation .dot:nth-child(6):hover {
+        opacity: 1; }
     [data-am-gallery] input[type="radio"]:checked:nth-child(5) ~ .images .image:nth-child(5) {
       opacity: 1; }
     [data-am-gallery] input[type="radio"]:checked:nth-child(5) ~ .navigation .dot:nth-child(5) {

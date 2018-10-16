@@ -256,6 +256,28 @@ body, html {
     z-index: -1;
     top: 0;
     &:checked {
+      &:nth-child(7) ~ {
+        .images .image:nth-child(7) {
+          opacity: 1;
+        }
+        .navigation .dot:nth-child(7) {
+          background-color: #29acbb;
+          &:hover {
+            opacity: 1;
+          }
+        }
+      }
+      &:nth-child(6) ~ {
+        .images .image:nth-child(6) {
+          opacity: 1;
+        }
+        .navigation .dot:nth-child(6) {
+          background-color: #29acbb;
+          &:hover {
+            opacity: 1;
+          }
+        }
+      }
       &:nth-child(5) ~ {
         .images .image:nth-child(5) {
           opacity: 1;

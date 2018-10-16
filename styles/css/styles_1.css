@@ -77,7 +77,8 @@ header {
 ul.nav {
   display: flex;
   justify-content: space-between;
-  width: 70%; }
+  width: 80%;
+  flex-wrap: nowrap; }
   ul.nav li {
     font-family: 'Roboto', sans-serif;
     color: #7c7979;
@@ -297,6 +298,7 @@ body {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); }
 
 /*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=styles_1.css.map */
 /*# sourceMappingURL=styles_1.css.map */
 /*# sourceMappingURL=styles_1.css.map */
 /*# sourceMappingURL=styles_1.css.map */
